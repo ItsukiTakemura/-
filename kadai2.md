@@ -9,6 +9,7 @@
 図1　白黒画像
 
 `IMG = ORG>128;`
+
 によって生成された２階調画像を示す．
 
 ![原画像](https://github.com/ItsukiTakemura/image_processing/blob/master/image/?raw=true)
@@ -22,6 +23,7 @@
 `IMG2 = ORG>192;`
 
 `IMG = IMG0 + IMG1 + IMG2;`
+
 によって生成された４階調画像を示す．
 
 ![原画像](https://github.com/ItsukiTakemura/image_processing/blob/master/image/?raw=true)
@@ -43,8 +45,11 @@
 `IMG6 = ORG>224;`
 
 `IMG = IMG0 + IMG1 + IMG2 + IMG3 + IMG4 + IMG5 + IMG6;`
+
 によって生成された８階調画像を示す．
 
 ![原画像](https://github.com/ItsukiTakemura/image_processing/blob/master/image/?raw=true)
 図4　８階調画像
 
+
+図より、階調する値の幅を狭めていくと、元の画像に近づいていくことがわかる. 
