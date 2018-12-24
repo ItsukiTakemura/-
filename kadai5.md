@@ -4,7 +4,8 @@
 
 標準画像を白黒にしたものを示す．
 
-![原画像](https://github.com/ItsukiTakemura/image_processing/blob/master/image/?raw=true)
+![原画像](https://github.com/ItsukiTakemura/image_processing/blob/master/image/kadai2_1.png?raw=true)
+
 図1　白黒画像
 
 
@@ -53,7 +54,8 @@
 
 によって画像二値化した結果を示す．
 
-![原画像](https://github.com/ItsukiTakemura/image_processing/blob/master/image/?raw=true)
+![原画像](https://github.com/ItsukiTakemura/image_processing/blob/master/image/kadai5_1.png?raw=true)
+
 図2　判別法を用いた二値化画像
 
 
