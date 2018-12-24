@@ -9,7 +9,7 @@
 
 によって，原画像を読み込み，表示した結果を図１に示す．
 
-![原画像](https://github.com/mackhasegawa/lecture_image_processing/blob/master/image/org_img.png?raw=true)  
+![原画像](https://github.com/mackhasegawa/lecture_image_processing/blob/master/kadai1_1.png?raw=true)  
 図1 原画像
 
 原画像を1/2サンプリングするには，画像を1/2倍に縮小した後，2倍に拡大すればよい．なお，拡大する際には，単純補間するために「box」オプションを設定する．
