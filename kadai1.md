@@ -1,10 +1,10 @@
 # 課題レポート
-###課題１　標本化間隔と空間解像度
+課題１　標本化間隔と空間解像度
 
 標準画像「LiSA ~NEG~.jpg」を原画像とする．
 
-`ORG=imread('Lenna.png'); % 原画像の入力`
-`imagesc(ORG); axis image; % 画像の表示`
+`ORG=imread('Lenna.png'); % 原画像の入力
+imagesc(ORG); axis image; % 画像の表示`
 
 によって，原画像を読み込み，表示した結果を図１に示す．
 
@@ -13,8 +13,8 @@
 
 原画像を1/2サンプリングするには，画像を1/2倍に縮小した後，2倍に拡大すればよい．なお，拡大する際には，単純補間するために「box」オプションを設定する．
 
-IMG = imresize(ORG,0.5); % 画像の縮小  
-IMG2 = imresize(IMG,2,'box'); % 画像の拡大
+`IMG = imresize(ORG,0.5); % 画像の縮小  
+IMG2 = imresize(IMG,2,'box'); % 画像の拡大`
 
 1/2サンプリングの結果を図２に示す．
 
@@ -23,8 +23,8 @@ IMG2 = imresize(IMG,2,'box'); % 画像の拡大
 
 同様に原画像を1/4サンプリングするには，画像を1/2倍に縮小した後，2倍に拡大すればよい．すなわち，
 
-IMG = imresize(ORG,0.5); % 画像の縮小  
-IMG2 = imresize(IMG,2,'box'); % 画像の拡大
+`IMG = imresize(ORG,0.5); % 画像の縮小
+IMG2 = imresize(IMG,2,'box'); % 画像の拡大`
 
 とする．1/4サンプリングの結果を図３に示す．
 
@@ -33,8 +33,8 @@ IMG2 = imresize(IMG,2,'box'); % 画像の拡大
 
 1/8から1/32サンプリングは，
 
-IMG = imresize(ORG,0.5); % 画像の縮小  
-IMG2 = imresize(IMG,2,'box'); % 画像の拡大
+`IMG = imresize(ORG,0.5); % 画像の縮小
+IMG2 = imresize(IMG,2,'box'); % 画像の拡大`
 
 を繰り返す．サンプリングの結果を図４～６に示す．
 
