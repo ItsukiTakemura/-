@@ -18,15 +18,15 @@
 
 図2　ヒストグラム
 
-`ORG = double(ORG);
+`ORG = double(ORG);`
 
-mn = min(ORG(:)); % 濃度値の最小値を算出
+`mn = min(ORG(:)); % 濃度値の最小値を算出`
 
-mx = max(ORG(:)); % 濃度値の最大値を算出
+`mx = max(ORG(:)); % 濃度値の最大値を算出`
 
-ORG = (ORG-mn)/(mx-mn)*255;
+`ORG = (ORG-mn)/(mx-mn)*255;`
 
-figure(3);  imagesc(ORG); colormap(gray); colorbar; % 画像の表示`
+`figure(3);  imagesc(ORG); colormap(gray); colorbar; % 画像の表示`
 
 画素のダイナミックレンジを０から２５５ににした結果を示す．
 
@@ -35,9 +35,9 @@ figure(3);  imagesc(ORG); colormap(gray); colorbar; % 画像の表示`
 図3　ダイナミックレンジを変更した画像
 
 
-`ORG = uint8(ORG); % 画像をuint8型に変換
+`ORG = uint8(ORG); % 画像をuint8型に変換`
 
-figure(4);  imhist(ORG); % 濃度ヒストグラムを生成、表示`
+`figure(4);  imhist(ORG); % 濃度ヒストグラムを生成、表示`
 
 によって生成された図3のヒストグラムを示す．
 
