@@ -5,7 +5,7 @@
 
 標準画像を白黒にしたものを示す．
 
-![原画像](https://github.com/ItsukiTakemura/image_processing/blob/master/image/?raw=true)
+![原画像](https://github.com/ItsukiTakemura/image_processing/blob/master/image/kadai2_1.png?raw=true)
 図1　白黒画像
 
 
@@ -13,7 +13,7 @@
 
 によって生成された図1のヒストグラムを示す．
 
-![原画像](https://github.com/ItsukiTakemura/image_processing/blob/master/image/?raw=true)
+![原画像](https://github.com/ItsukiTakemura/image_processing/blob/master/image/kadai4_2.png?raw=true)
 図2　ヒストグラム
 
 図より、原画像のどの濃度のが強いかが分かる．
