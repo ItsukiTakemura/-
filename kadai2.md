@@ -6,6 +6,7 @@
 標準画像を白黒にしたものを示す．
 
 ![原画像](https://github.com/ItsukiTakemura/image_processing/blob/master/image/kadai2_1.png?raw=true)
+
 図1　白黒画像
 
 `IMG = ORG>128;`
@@ -13,6 +14,7 @@
 によって生成された２階調画像を示す．
 
 ![原画像](https://github.com/ItsukiTakemura/image_processing/blob/master/image/kadai2_2.png?raw=true)
+
 図2　２階調画像
 
 
@@ -27,6 +29,7 @@
 によって生成された４階調画像を示す．
 
 ![原画像](https://github.com/ItsukiTakemura/image_processing/blob/master/image/kadai2_3.png?raw=true)
+
 図3　４階調画像
 
 
@@ -49,6 +52,7 @@
 によって生成された８階調画像を示す．
 
 ![原画像](https://github.com/ItsukiTakemura/image_processing/blob/master/image/kadai2_4.png?raw=true)
+
 図4　８階調画像
 
 
