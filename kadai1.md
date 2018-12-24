@@ -3,13 +3,13 @@
 
 標準画像「LiSA ~NEG~.jpg」を原画像とする．
 
-`ORG=imread('Lenna.png'); % 原画像の入力`
+`ORG=imread('LiSA ~NEG~.jpg'); % 原画像の入力`
 
 `imagesc(ORG); axis image; % 画像の表示`
 
 によって，原画像を読み込み，表示した結果を図１に示す．
 
-![原画像](https://github.com/mackhasegawa/lecture_image_processing/blob/master/kadai1_1.png?raw=true)  
+![原画像](https://github.com/ItsukiTakemura/image_processing/blob/master/kadai1_1.png?raw=true)  
 図1 原画像
 
 原画像を1/2サンプリングするには，画像を1/2倍に縮小した後，2倍に拡大すればよい．なお，拡大する際には，単純補間するために「box」オプションを設定する．
