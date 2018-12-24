@@ -6,6 +6,7 @@
 標準画像を白黒にしたものを示す．
 
 ![原画像](https://github.com/ItsukiTakemura/image_processing/blob/master/image/kadai2_1.png?raw=true)
+
 図1　白黒画像
 
 
@@ -14,6 +15,7 @@
 によって生成された画像を示す．
 
 ![原画像](https://github.com/ItsukiTakemura/image_processing/blob/master/image/kadai3_2.png?raw=true)
+
 図2　閾値を64に設定した画像
 
 
@@ -22,6 +24,7 @@
 によって生成された画像を示す．
 
 ![原画像](https://github.com/ItsukiTakemura/image_processing/blob/master/image/kadai3_3.png?raw=true)
+
 図3　閾値を96に設定した画像
 
 
@@ -30,6 +33,7 @@
 によって生成された画像を示す．
 
 ![原画像](https://github.com/ItsukiTakemura/image_processing/blob/master/image/kadai3_4.png?raw=true)
+
 図4　閾値を128に設定した画像
 
 
@@ -38,6 +42,7 @@
 によって生成された画像を示す．
 
 ![原画像](https://github.com/ItsukiTakemura/image_processing/blob/master/image/kadai3_5.png?raw=true)
+
 図5　閾値を192に設定した画像
 
 
