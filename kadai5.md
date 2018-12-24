@@ -54,7 +54,7 @@
 
 によって画像二値化した結果を示す．
 
-![原画像](https://github.com/ItsukiTakemura/image_processing/blob/master/image/kadai5_1.png?raw=true)
+![原画像](https://github.com/ItsukiTakemura/image_processing/blob/master/image/kadai5_2.png?raw=true)
 
 図2　判別法を用いた二値化画像
 
